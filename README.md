@@ -1,15 +1,4 @@
-**Reference**
 
-- D. Chen, W. Hong, and X. Zhou. "Transformer Network for Remaining Useful Life Prediction of Lithium-Ion Batteries", IEEE Access, 2022.
-- D. Chen and X. Zhou. "AttMoE: Attention with Mixture of Experts for remaining useful life prediction of lithium-ion batteries." Journal of Energy Storage 84 (2024): 110780.
-
-**Supplement**
-
-Due to the length of the paper, the two parameters of *dropout* and *noise_level* are not discussed. By setting these two parameters, better results can be obtained than in the paper.
-
-- *noise level = 0.01*: Setting the value of 1% disturbance is best: too large will degrade performance, too small will have little effect.
-
-- *dropout = 1e-4~1e-3*: Set a small value for the network dropout to ensure the robustness of the model.
 
 **Packages**
 
@@ -19,18 +8,7 @@ Due to the length of the paper, the two parameters of *dropout* and *noise_level
 
 - mixture_of_experts 0.2.1 (for AttMoE, github: https://github.com/lucidrains/mixture-of-experts)
 
-**Update** 
 
-- 24, 2, 2022，Change some variable names
-- 1, 3, 2024, upload the open sorce of AttMoE
-
-**Dataset CALCE processing reference**
-
-https://github.com/konkon3249/BatteryLifePrediction
-
-**E-mail**
-
-Please feel free to contact me: zhouxiuze@foxmail.com
 
 **更多内容**
 
